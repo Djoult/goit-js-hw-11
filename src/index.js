@@ -6,6 +6,8 @@ const searchForm = document.querySelector('#search-form');
 
 searchForm.addEventListener('submit', handleSearch);
 
-function handleSearch() {
-  console.log('searched');
+function handleSearch(e) {
+  e.preventDefault();
+  const searchQuery = e.target.elements.searchQuery.value;
+  console.log(searchQuery);
 }

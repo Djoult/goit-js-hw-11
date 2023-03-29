@@ -73,7 +73,7 @@ button {
 }
 .search-form__button:hover,
 .search-form__button:focus {
-  color: blue;
+  color: #9932cc;
 }
 .search-logo {
   fill: currentColor;
