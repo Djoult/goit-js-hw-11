@@ -22,6 +22,7 @@ async function handleSearch(e) {
   ClearMarkUp();
   if (searchQuery === '') {
     searchForm.reset();
+    loadBtn.classList.add('is-hidden');
     Notiflix.Notify.warning('Please, enter a request', {
       clickToClose: true,
     });
